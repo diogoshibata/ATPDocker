@@ -1,5 +1,5 @@
 module.exports= {
 user:"nodeuser",
-password:"Autonomousdb123#",
-connectString :"nodeappdb2_high"
+password:"OracleCloud#123",
+connectString :"atpoke_high"
 }
