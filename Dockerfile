@@ -14,7 +14,7 @@ COPY ./aone ./ATPDocker/aone
 RUN mv  ./tmp_mods/node_modules ./ATPDocker/aone
 
 RUN mkdir wallet_NODEAPPDB2
-COPY ./wallet_NODEAPPDB2 ./wallet_NODEAPPDB2
+COPY ./Wallet_atpoke ./wallet_NODEAPPDB2
 
 EXPOSE 3050
 CMD [ "node", "/opt/oracle/lib/ATPDocker/aone/server.js" ]
