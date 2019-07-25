@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: atp2
-        image: phx.ocir.io/grey10/atpdocker:latest
+        image: phx.ocir.io/grey10/idemgrvq3k9x/atpdocker:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3050 #Endpoint is at port 80 in the container
